@@ -1,0 +1,13 @@
+name = "SnowLinModPack"
+author = "SnowLin"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "086b9935d7044cd7f39721bb38f01bd3800c9f079e4c68fc5d16b802936cb26c"
+
+[versions]
+fabric = "0.14.21"
+minecraft = "1.20.1"
