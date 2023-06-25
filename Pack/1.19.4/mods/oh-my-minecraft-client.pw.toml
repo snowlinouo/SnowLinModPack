@@ -1,0 +1,13 @@
+name = "OMMC"
+filename = "oh-my-minecraft-client-0.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "543886be81d055a7120691708e5b2d38434f61dd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3827495
+project-id = 454900
