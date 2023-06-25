@@ -1,0 +1,11 @@
+{
+  "multilingualItemSearch": true,
+  "fallbacks": [
+    "zh_cn"
+  ],
+  "previousFallbacks": [
+    "zh_tw"
+  ],
+  "language": "zh_tw",
+  "previousLanguage": "zh_cn"
+}
