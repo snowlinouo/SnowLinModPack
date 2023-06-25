@@ -1,0 +1,20 @@
+{
+  "demandOnClient": false,
+  "demandOnServer": false,
+  "enableDebugLog": false,
+  "convertToGameMessage": false,
+  "showServerSafety": true,
+  "hideRedChatIndicators": true,
+  "hideYellowChatIndicators": true,
+  "hideGrayChatIndicators": true,
+  "hideWarningToast": true,
+  "alwaysHideReportButton": false,
+  "disableTelemetry": true,
+  "showReloadButton": true,
+  "whitelistAllServers": false,
+  "whitelistedServers": [
+    "snowlin.server.imych.one:25567",
+    "xn--2qux22cisk55b.com:31202",
+    "xn--2qux22cisk55b.com:25565"
+  ]
+}
