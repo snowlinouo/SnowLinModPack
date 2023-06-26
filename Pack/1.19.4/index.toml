@@ -1591,7 +1591,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "70daf55cd8c42da1cc60a0530009ce27759fef983f9e4cfb626903b9e931fd55"
+hash = "fb8d869693d3235ef75c600f277f57b810aa80ddd6ee2dad3a86cf0d0af230e1"
 metafile = true
 
 [[files]]
@@ -1602,6 +1602,11 @@ metafile = true
 [[files]]
 file = "mods/fabrishot.pw.toml"
 hash = "81d902689258f0c58b136b238500198a55d7ca2809f582f791a3f51f0a85f258"
+metafile = true
+
+[[files]]
+file = "mods/fallingtree.pw.toml"
+hash = "90fa141fc54ad36d06304d1eb8df32fd7fa6719db3cd5ead980170f2c26fe3f9"
 metafile = true
 
 [[files]]
@@ -1622,6 +1627,11 @@ metafile = true
 [[files]]
 file = "mods/forgetmechunk.pw.toml"
 hash = "b8af7e48b2c48c5f81d331e9434a2d54617a74116248e1020c172ea849b6aff5"
+metafile = true
+
+[[files]]
+file = "mods/immediatelyfast.pw.toml"
+hash = "8b204c352fbc477a8591ca32376b004fdabcfacb12b570a7a1826cabd550bb93"
 metafile = true
 
 [[files]]
@@ -1670,6 +1680,11 @@ hash = "c8855b61ee4a9f2682a2783f335c9d8cdb88397a0e8c88519c574c88c3cdef5c"
 metafile = true
 
 [[files]]
+file = "mods/lazydfu.pw.toml"
+hash = "b4ca05b39b85c27cd97ccb65d5fb832f5e9fd7ee5710542a3e69dfa30a97ea7d"
+metafile = true
+
+[[files]]
 file = "mods/libipn.pw.toml"
 hash = "da296f280540b4c8350a8fdc602429088b0edb99e7ec21ecd309841eb26d5d11"
 metafile = true
@@ -1710,11 +1725,6 @@ hash = "79e728aa7d81f460b62b73d820b16796390c13951d6aca9e78347bc59f79e242"
 metafile = true
 
 [[files]]
-file = "mods/midnightcontrols.pw.toml"
-hash = "06a493548476f30b012a65000d1d127d894da9cb65fc5be87d68362623317ed5"
-metafile = true
-
-[[files]]
 file = "mods/minihud.pw.toml"
 hash = "d2f0215f66b51238c5354085515981f137087f33f48416bee2e5d200063486fd"
 metafile = true
@@ -1732,6 +1742,11 @@ metafile = true
 [[files]]
 file = "mods/morechathistory.pw.toml"
 hash = "df1041db6a11dee59405e3b0c65765c461f9cd97e327a041e440ea6d9e94b3ad"
+metafile = true
+
+[[files]]
+file = "mods/moreculling.pw.toml"
+hash = "b181531817e2f079d5ac74f78c410d7e978d18c111a81b38a29bb3809102291d"
 metafile = true
 
 [[files]]
@@ -1765,13 +1780,23 @@ hash = "aa0f8e25cc4c367f28f731092ffa047c770567709c52b2242c7d42c3a4958280"
 metafile = true
 
 [[files]]
+file = "mods/seaborgium.pw.toml"
+hash = "a5d5916a9e3eabaa804b0a2e35505c8bb3ef32da8cf8e5967a964b6d33e586f6"
+metafile = true
+
+[[files]]
 file = "mods/servercore.pw.toml"
 hash = "928d0f577921fa0dec0e0f8fdbeaac54cd58a80f2f186c2af02e95ee2e1daf98"
 metafile = true
 
 [[files]]
+file = "mods/sodium-extra.pw.toml"
+hash = "637533a15bb4eb5aaaab5a8fdc352214732202def3beedcd91a4e4e614a74f2a"
+metafile = true
+
+[[files]]
 file = "mods/sodium.pw.toml"
-hash = "55daee225c110eae279dee769f31294541c05465ac5533c4317787c9070679c5"
+hash = "74942b197e40ee1a4852751088b911b7ef4b9dd4191c3029896464924a8d8272"
 metafile = true
 
 [[files]]
@@ -1802,6 +1827,11 @@ metafile = true
 [[files]]
 file = "mods/viafabric.pw.toml"
 hash = "e7305b483d164541d9df6e5065950fb22d93d9651276c36b177c6d2320b14409"
+metafile = true
+
+[[files]]
+file = "mods/vmp-fabric.pw.toml"
+hash = "a358d855d607dde44433097b6a054855143cb2f023f70c23020427b3548b9972"
 metafile = true
 
 [[files]]
