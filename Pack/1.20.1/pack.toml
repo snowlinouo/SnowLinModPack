@@ -1,13 +1,16 @@
-name = "SnowLinModPack"
-author = "SnowLin"
+name = "雪鈴模組包-1.20.1"
+author = "雪鈴"
 version = "1.0.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "086b9935d7044cd7f39721bb38f01bd3800c9f079e4c68fc5d16b802936cb26c"
+hash = "d2492eb25df4f01875519f7e4ed02a8e40a05ac6a30d2080a4625bf6cf84cc4d"
 
 [versions]
 fabric = "0.14.21"
 minecraft = "1.20.1"
+
+[options]
+acceptable-game-versions = ["1.19.4", "1.20"]
