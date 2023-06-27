@@ -1575,6 +1575,11 @@ hash = "156942df991662545265aae10fafa4b64bc1ba1226670be03916e58894671089"
 metafile = true
 
 [[files]]
+file = "mods/command-macros.pw.toml"
+hash = "0fbcccdfd5a303ff8eb091c6d2bac13ba1453543af48f32eacb577642d88aa7c"
+metafile = true
+
+[[files]]
 file = "mods/continuity.pw.toml"
 hash = "4cb02206331c9a6d207681b2e40b4b8648a462b0c31e6e634200a01b592b1d3d"
 metafile = true
