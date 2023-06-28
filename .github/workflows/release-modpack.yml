@@ -71,7 +71,7 @@ jobs:
         if: ${{ ! inputs.pre-release }}
         uses: Kir-Antipov/mc-publish@v3.3
         with:
-          modrinth-id: 1RvYsK6T
+          modrinth-id: JHAIU82Q
           modrinth-unfeature-mode: subset
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
           changelog-file: "./.github/template/changelog.md"
