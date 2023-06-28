@@ -85,8 +85,15 @@ jobs:
           cp -r Temp-CF/overrides/mods .
           # Clean up
           rm -r Temp-MR Temp-CF
-          # Detect and export
+          # Detect Jars
           packwiz cf detect
+          # Temp fix Sodium and Iris detect wrong
+          rm mods/sodium.pw.toml || echo "Sodium not found!"
+          rm mods/iris.pw.toml || echo "Iris not found!"
+          rm mods/our-sever.pw.toml || echo "Unknown file not found!"
+          cp -r ../${{ inputs.path }}/mods/sodium.pw.toml mods/
+          cp -r ../${{ inputs.path }}/mods/iris.pw.toml mods/
+          # Export CurseForge Modpack
           packwiz cf export
           mv *.zip $GITHUB_WORKSPACE
 
