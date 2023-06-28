@@ -51,11 +51,10 @@ jobs:
           modrinth-unfeature-mode: subset
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
           changelog-file: "./.github/template/changelog.md"
-          loaders: minecraft
+          loaders: fabric
+          game-versions: ${{ needs.modpack.outputs.mc_version }}
           name: SnowLinModPack ${{ needs.modpack.outputs.pack_version }} (${{ needs.modpack.outputs.mc_version }})
           version: ${{ needs.modpack.outputs.pack_version }}-${{ needs.modpack.outputs.mc_version }}
           version-type: release
-          changelog: |
-            ${{ env.CHANGELOG }}
           files: |
             *.mrpack
