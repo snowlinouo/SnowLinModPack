@@ -68,6 +68,7 @@ jobs:
           bodyFile: "./.github/template/changelog.md"
 
       - name: Modrinth Release
+        if: ${{ ! inputs.pre-release }}
         uses: Kir-Antipov/mc-publish@v3.3
         with:
           modrinth-id: 1RvYsK6T
