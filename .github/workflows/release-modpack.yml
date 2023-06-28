@@ -50,6 +50,7 @@ jobs:
           modrinth-id: 1RvYsK6T
           modrinth-unfeature-mode: subset
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          version_number: ${{ needs.modpack.outputs.pack_version }}-${{ needs.modpack.outputs.mc_version }}
           name: SnowLinModPack ${{ needs.modpack.outputs.pack_version }} (${{ needs.modpack.outputs.mc_version }})
           files: |
             *.mrpack
