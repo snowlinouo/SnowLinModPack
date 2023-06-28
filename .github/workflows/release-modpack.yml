@@ -1,0 +1,55 @@
+name: Release Modpack
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "模組包路徑"
+        required: true
+        type: choice
+        options:
+          - "1.19.4"
+          - "1.20.1"
+
+permissions:
+  contents: write
+
+jobs:
+  modpack:
+    uses: ./.github/workflows/packwiz-action.yml
+    with:
+      path: ${{ inputs.version }}
+
+  release:
+    needs: [ modpack ]
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checking Repostiory
+        uses: actions/checkout@v3
+
+      - name: Download Modpack
+        uses: actions/download-artifact@v3
+        with:
+          name: Modpacks-Artifact
+
+      - name: GitHub Release 
+        uses: softprops/action-gh-release@v1
+        with:
+          name: SnowLinModPack ${{ needs.modpack.outputs.pack_version }} (${{ needs.modpack.outputs.mc_version }})
+          tag_name: ${{ needs.modpack.outputs.pack_version }}-${{ needs.modpack.outputs.mc_version }}
+          files: |
+            *.mrpack
+            *.zip
+            checksums.txt
+          body_path: "./.github/template/changelog.md"
+
+      - name: Modrinth Release
+        uses: Kir-Antipov/mc-publish@v3.3
+        with:
+          modrinth-id: ID
+          modrinth-unfeature-mode: subset
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          name: SnowLinModPack ${{ needs.modpack.outputs.pack_version }} (${{ needs.modpack.outputs.mc_version }})
+          files: |
+            *.mrpack

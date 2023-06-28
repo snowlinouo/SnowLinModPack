@@ -1,0 +1,89 @@
+name: Packwiz
+
+on:
+  workflow_call:
+    inputs:
+      path:
+        required: true
+        type: string
+    outputs:
+      pack_version:
+        description: "Modpack version"
+        value: ${{ jobs.modpack-maker.outputs.pack_version }}
+      mc_version:
+        description: "Minecraft version"
+        value: ${{ jobs.modpack-maker.outputs.mc_version }}
+
+jobs:
+  modpack-maker:
+    name: Make Modpack
+    runs-on: ubuntu-latest
+
+    outputs:
+      pack_version: ${{ steps.version.outputs.pack_version }}
+      mc_version: ${{ steps.version.outputs.mc_version }}
+
+    steps:
+      - name: Checking Repostiory
+        uses: actions/checkout@v3
+
+      - name: Setup Golang
+        uses: actions/setup-go@v4
+        with:
+          go-version: "1.19.10"
+          cache: false
+
+      - name: Install Packwiz
+        working-directory: Pack
+        run: |
+          go install github.com/packwiz/packwiz@latest
+          packwiz --help
+
+      - name: Export Version
+        id: version
+        working-directory: Pack
+        run: |
+          cd ${{ inputs.path }} || exit
+          pack_version=$(grep -oP '(?<=version = ")[^"]+' pack.toml)
+          mc_version=$(grep -oP '(?<=minecraft = ")[^"]+' pack.toml)
+          echo "pack_version=$pack_version" >> "$GITHUB_OUTPUT"
+          echo "mc_version=$mc_version" >> "$GITHUB_OUTPUT"
+
+      - name: Modpack Export (Modrinth)
+        working-directory: Pack
+        run: |
+          cd ${{ inputs.path }} || exit
+          packwiz mr export
+          mv *.mrpack $GITHUB_WORKSPACE
+
+      - name: Modpack Export (CurseForge)
+        working-directory: Pack
+        run: |
+          cp -r ${{ inputs.path }} ${{ inputs.path }}-CF
+          cd ${{ inputs.path }}-CF || exit
+          packwiz cf export
+          mkdir Temp
+          mv *.zip Temp/
+          cd Temp
+          unzip *.zip
+          cd ..
+          rm -r mods
+          cp -r Temp/overrides/mods .
+          rm -r Temp
+          packwiz cf detect
+          packwiz cf export
+          mv *.zip $GITHUB_WORKSPACE
+
+      - name: Make Checksums
+        run: |
+          sha256sum *.mrpack >> checksums.txt
+          sha256sum *.zip >> checksums.txt
+
+      - name: Upload Modpack
+        uses: actions/upload-artifact@v3
+        with:
+          name: Modpacks-Artifact
+          path: |
+            *.mrpack
+            *.zip
+            checksums.txt
