@@ -164,6 +164,16 @@ hash = "0bf7fa5d6e5b126e110699e85c64b4d86a1d4171d17adfc994936e6f62b81083"
 metafile = true
 
 [[files]]
+file = "mods/better-mount-hud.pw.toml"
+hash = "961a423cc427d4c785354239e8e7b251b5575756b1cf85dd1bc85011b47f0fbf"
+metafile = true
+
+[[files]]
+file = "mods/borderless-mining.pw.toml"
+hash = "c49d42cddfb05cf5e4882d5753bd98a525c9a994fda5f49651003e8266b7aa9d"
+metafile = true
+
+[[files]]
 file = "mods/c2me-fabric.pw.toml"
 hash = "be694b9cf9d9d2245fb0908c837f129dd9033bfb69ffe49c0e5c9dcecb580a2e"
 metafile = true
@@ -229,6 +239,11 @@ hash = "d386dbb717f1d46d046a6ac1002cae1d985591bc99b84d4e34e37c6d6ff193a3"
 metafile = true
 
 [[files]]
+file = "mods/entityculling.pw.toml"
+hash = "4eec3de8a58a6e64ea96e31781b52f70b4b33ec02a34a45f171e3a1e6697ba86"
+metafile = true
+
+[[files]]
 file = "mods/entitytexturefeatures.pw.toml"
 hash = "759451c84dd1dc8f7e0c9ac3210a2d69f19becc342834a58b18252d6e627b9c6"
 metafile = true
@@ -241,6 +256,11 @@ metafile = true
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
 hash = "4ee359a86da950211a8da17a896c815af7d35fd9c5b7d3472f3fd5676476ba81"
+metafile = true
+
+[[files]]
+file = "mods/fabricskyboxes-interop.pw.toml"
+hash = "3a86b3417b781abc294b6e41c475e5ac1831944527db6f07f0107a30e5bde0bd"
 metafile = true
 
 [[files]]
@@ -285,7 +305,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "a8314e340073fa3b285f10b3824743b7e48dc8dcc6619b6ed2069a02733ef60d"
+hash = "9953c058e9e07d222493c97cc94fdf318f05260a60efdf927aca6a1d1afe9738"
 metafile = true
 
 [[files]]
@@ -461,6 +481,15 @@ metafile = true
 [[files]]
 file = "mods/yosbr.pw.toml"
 hash = "6f6334f336a876088431df70e2bba6ac52ca2ddeb73a4880ce88d6954b09af00"
+metafile = true
+
+[[files]]
+file = "resourcepacks/[1.20]Masa Family Bucket Translation Pack.zip"
+hash = "ac48abd0ccfd07888229f99bc5d2ce62fecd031f9c18132ae93375a701028480"
+
+[[files]]
+file = "resourcepacks/chat-reporting-helper.pw.toml"
+hash = "615d0beeee569a2ef860636942444eefb131c57bcdd3564c9b054c231a7c8bfb"
 metafile = true
 
 [[files]]

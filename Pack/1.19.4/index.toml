@@ -164,6 +164,16 @@ hash = "0bf7fa5d6e5b126e110699e85c64b4d86a1d4171d17adfc994936e6f62b81083"
 metafile = true
 
 [[files]]
+file = "mods/better-mount-hud.pw.toml"
+hash = "296b4e7a1b7eee84117cc64362f27a981a820e9a39c9d8acae9937c0fca99da6"
+metafile = true
+
+[[files]]
+file = "mods/borderless-mining.pw.toml"
+hash = "43c8d0c7b3642fe1748d07da8f3c6277a0a195bdc4043b9189fc53479e26b957"
+metafile = true
+
+[[files]]
 file = "mods/c2me-fabric.pw.toml"
 hash = "d9eedf6b968e18479f2d9819859e5d9e8eea0876c066ae4238a4672482a34efb"
 metafile = true
@@ -229,6 +239,11 @@ hash = "476d7497746313c8b4e52a90914e971c227d20b3238a7d34ae2b756681c89395"
 metafile = true
 
 [[files]]
+file = "mods/entityculling.pw.toml"
+hash = "a29a6474aff0264882b7e6e010d8beadfb3291e361d171aebb0cb158f4892812"
+metafile = true
+
+[[files]]
 file = "mods/entitytexturefeatures.pw.toml"
 hash = "0c0a846870316e01176a1d817e9304f63da9b1dbb391fedfa4a18ecbead654a4"
 metafile = true
@@ -241,6 +256,11 @@ metafile = true
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
 hash = "4ee359a86da950211a8da17a896c815af7d35fd9c5b7d3472f3fd5676476ba81"
+metafile = true
+
+[[files]]
+file = "mods/fabricskyboxes-interop.pw.toml"
+hash = "0c49c30afd27b0a2cf79b4487a31143a313e847ad6eede7f9d56d7644313e61c"
 metafile = true
 
 [[files]]
@@ -461,6 +481,15 @@ metafile = true
 [[files]]
 file = "mods/yosbr.pw.toml"
 hash = "6f6334f336a876088431df70e2bba6ac52ca2ddeb73a4880ce88d6954b09af00"
+metafile = true
+
+[[files]]
+file = "resourcepacks/[1.19.4]Masa Family Bucket Translation Pack.zip"
+hash = "847fb8e6082880b811cf0ebd29331d48943a430527b6207a59f138d5ad3f4039"
+
+[[files]]
+file = "resourcepacks/chat-reporting-helper.pw.toml"
+hash = "8fd75cdc574672683f7dc9cd667eeda11fe5ca3414e781515161dae3e930d569"
 metafile = true
 
 [[files]]
