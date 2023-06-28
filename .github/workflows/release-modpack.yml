@@ -53,6 +53,9 @@ jobs:
           changelog-file: "./.github/template/changelog.md"
           loaders: minecraft
           name: SnowLinModPack ${{ needs.modpack.outputs.pack_version }} (${{ needs.modpack.outputs.mc_version }})
-          version_number: ${{ needs.modpack.outputs.pack_version }}-${{ needs.modpack.outputs.mc_version }}
+          version: ${{ needs.modpack.outputs.pack_version }}-${{ needs.modpack.outputs.mc_version }}
+          version-type: release
+          changelog: |
+            ${{ env.CHANGELOG }}
           files: |
             *.mrpack
