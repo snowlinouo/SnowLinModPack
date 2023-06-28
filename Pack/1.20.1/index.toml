@@ -462,3 +462,8 @@ metafile = true
 file = "mods/yosbr.pw.toml"
 hash = "6f6334f336a876088431df70e2bba6ac52ca2ddeb73a4880ce88d6954b09af00"
 metafile = true
+
+[[files]]
+file = "resourcepacks/modstranslationpack.pw.toml"
+hash = "afbba626385950500cfaaef9d2273d4857f0fb42175bbb1612ec774892785845"
+metafile = true
