@@ -56,23 +56,39 @@ jobs:
           packwiz mr export
           mv *.mrpack $GITHUB_WORKSPACE
 
-      - name: Modpack Export (CurseForge)
-        working-directory: Pack
-        run: |
-          cp -r ${{ inputs.path }} ${{ inputs.path }}-CF
-          cd ${{ inputs.path }}-CF || exit
-          packwiz cf export
-          mkdir Temp
-          mv *.zip Temp/
-          cd Temp
-          unzip *.zip
-          cd ..
-          rm -r mods
-          cp -r Temp/overrides/mods .
-          rm -r Temp
-          packwiz cf detect
-          packwiz cf export
-          mv *.zip $GITHUB_WORKSPACE
+          - name: Modpack Export (CurseForge)
+          working-directory: Pack
+          run: |
+            # Make Temp CF Folder
+            cp -r ${{ inputs.path }} ${{ inputs.path }}-CF
+            cd ${{ inputs.path }}-CF || exit
+            # Export two type modpack
+            packwiz mr export
+            packwiz cf export
+            # Make two type temp dir
+            mkdir Temp-MR
+            mkdir Temp-CF
+            # Move two type modpack
+            mv *.mrpack Temp-MR/
+            mv *.zip Temp-CF/
+            # UnArchive 
+            cd Temp-MR || exit
+            unzip *.mrpack
+            cd ..
+            cd Temp-CF || exit
+            unzip *.zip
+            cd ..
+            # Remove mods
+            rm -r mods
+            # Copy export mods
+            cp -r Temp-MR/overrides/mods .
+            cp -r Temp-CF/overrides/mods .
+            # Clean up
+            rm -r Temp-MR Temp-CF
+            # Detect and export
+            packwiz cf detect
+            packwiz cf export
+            mv *.zip $GITHUB_WORKSPACE
 
       - name: Make Checksums
         run: |
