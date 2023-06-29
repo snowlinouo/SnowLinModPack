@@ -51,7 +51,7 @@ jobs:
             *.mrpack
             *.zip
             checksums.txt
-          bodyFile: "./.github/template/changelog-beta.md"
+          bodyFile: "./.github/template/${{ inputs.version }}-changelog-beta.md"
 
       - name: GitHub Release 
         if: ${{ ! inputs.pre-release }}
