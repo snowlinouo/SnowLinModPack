@@ -1,12 +1,12 @@
 name = "SnowLinModPack-1.19.4"
 author = "SnowLin"
-version = "1.0.2"
+version = "1.0.3"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "9ea42b9200b74011ed3617c797d331f7abdbe93180fc8fa75c2a79952b35f960"
+hash = "6c401ff0f24b7a2219500156c414ee73d99b9e0bc80208ec1f32447801823e15"
 
 [versions]
 fabric = "0.14.22"

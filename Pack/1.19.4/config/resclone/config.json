@@ -1,0 +1,33 @@
+{
+  "packs":[
+    {
+      "fetcher": "file",
+      "source": "https://cdn.modrinth.com/data/Zrixe2pD/versions/lfhNpukV/%C2%A7fBetter%20%C2%A74%C2%A7lSky%20%C2%A771.20.zip",
+      "name": "漂亮天空資源包",
+      "forceDownload": false,
+      "forceEnable": false
+    },
+    {
+      "fetcher": "file",
+      "source": "https://cdn.modrinth.com/data/IEt3hTCe/versions/VZ2NpFyU/%5B1.20%5DMasa%20Family%20Bucket%20Translation%20Pack.zip",
+      "name": "Masa 模組全家桶翻譯包",
+      "forceDownload": false,
+      "forceEnable": true
+    },
+    {
+      "fetcher": "file",
+      "source": "https://cdn.modrinth.com/data/cF5VXmkW/versions/hQ7gAGQg/ModsTranslationPack-1.20.x.zip",
+      "name": "模組翻譯包",
+      "forceDownload": false,
+      "forceEnable": true
+    },
+    {
+      "fetcher": "file",
+      "source": "https://cdn.modrinth.com/data/tN4E9NfV/versions/KxIfCcXu/Chat%20Reporting%20Helper.zip",
+      "name": "聊天檢舉幫助資源包",
+      "forceDownload": false,
+      "forceEnable": true
+    }
+  ],
+  "pruneUnused":true
+}

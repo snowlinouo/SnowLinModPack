@@ -2,7 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/isxander-main-menu-credits.json"
-hash = "2a2a8995950d5ce74c83d98a19194997662570b8540e30ccfce48f561b25477b"
+hash = "ce14a635cc6835b401128321a5deed51926e07baea37538a09720cf1bcde12b9"
+
+[[files]]
+file = "config/resclone/config.json"
+hash = "44ef1f4427ece674cd32cd93720c6ebf4fdb22f044f607ae5b3198fa5b2ebe70"
 
 [[files]]
 file = "config/yosbr/config/NoChatReports/NCR-Client.json"
@@ -413,6 +417,11 @@ hash = "2c8dba30f0dd63974cba6e2a30bd6a60f1d69bddce537e5cc2137278926d39e0"
 metafile = true
 
 [[files]]
+file = "mods/resclone.pw.toml"
+hash = "676181c9e99182af288fed27cf466c530c102c3105bf92c3cbcb7436f45d7748"
+metafile = true
+
+[[files]]
 file = "mods/sodium-extra.pw.toml"
 hash = "4e691c86059e755a026b8cae8cf0c66396dc39bf47b6c71980589101803ecd36"
 metafile = true
@@ -475,19 +484,4 @@ metafile = true
 [[files]]
 file = "mods/yosbr.pw.toml"
 hash = "34d8808403d641935e0803cd2b83a33689cdb351d2614e990a2c9268958a6a19"
-metafile = true
-
-[[files]]
-file = "resourcepacks/chat-reporting-helper.pw.toml"
-hash = "f0757a57ec948db4f3cdbb09bd16e7663f571e5cf00af47b86d7da3135960111"
-metafile = true
-
-[[files]]
-file = "resourcepacks/masa-family-bucket-translationpack.pw.toml"
-hash = "85edcb5df6f77501c37656189d678e8377c24019674de6ef5f16d7b526f8e017"
-metafile = true
-
-[[files]]
-file = "resourcepacks/modstranslationpack.pw.toml"
-hash = "d3c0d0cae0fa2ff87ab4b02caa1800596a7436cbc8a10cca7dbeeb651ef02b80"
 metafile = true

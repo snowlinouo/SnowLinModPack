@@ -1,0 +1,13 @@
+name = "Resclone"
+filename = "resclone-1.11.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/kVAQyCLX/versions/v4LSkn6M/resclone-1.11.1.jar"
+hash-format = "sha1"
+hash = "430f45c3c256bd42b44fae454644e04622652c67"
+
+[update]
+[update.modrinth]
+mod-id = "kVAQyCLX"
+version = "v4LSkn6M"
