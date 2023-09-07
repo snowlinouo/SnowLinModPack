@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/isxander-main-menu-credits.json"
+hash = "2a2a8995950d5ce74c83d98a19194997662570b8540e30ccfce48f561b25477b"
+
+[[files]]
 file = "config/yosbr/config/NoChatReports/NCR-Client.json"
 hash = "b189dbced7f184f01a3261894763630ab6244a20c5d0ee4694f3461e67d76344"
 
@@ -98,7 +102,7 @@ hash = "aa50dfaa0e674caf2691c16ab2b48277cef8ac576ed36986454796c820a0ae68"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "a58ac9e2fb927af9c283af970ef2eaa5414377bdc9ea801fb39926dbba61456c"
+hash = "a1bcf1a61cc8e4c29f651b8b6a28a2917a10345d094c83a8b568b0a6acb35d14"
 
 [[files]]
 file = "journeymap/config/5.9/journeymap.core.config"
@@ -340,7 +344,7 @@ metafile = true
 
 [[files]]
 file = "mods/main-menu-credits.pw.toml"
-hash = "1883ce97c88cd65830988c865757e077646632881fb4fceb263b7127256d84b6"
+hash = "2a79f7fb98b7073c926c6f87a93473f5714cf82a2ace7f344e4e2de4a33e0233"
 metafile = true
 
 [[files]]
