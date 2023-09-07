@@ -42,8 +42,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"false"
-resourcePacks:["vanilla","fabric","file/Chat Reporting Helper.zip","betterbeds:connectedbeds","continuity:default","continuity:glass_pane_culling_fix","file/[1.20]Masa Family Bucket Translation Pack.zip","file/ModsTranslationPack-1.19.x.zip"]
-incompatibleResourcePacks:["betterbeds:connectedbeds","file/ModsTranslationPack-1.19.x.zip"]
+resourcePacks:["vanilla","fabric","file/Chat Reporting Helper.zip","betterbeds:connectedbeds","continuity:default","continuity:glass_pane_culling_fix","file/[1.20]Masa Family Bucket Translation Pack.zip","file/ModsTranslationPack-1.20.x.zip"]
+incompatibleResourcePacks:["betterbeds:connectedbeds","file/ModsTranslationPack-1.20.x.zip"]
 lastServer:
 lang:zh_tw
 soundDevice:""
