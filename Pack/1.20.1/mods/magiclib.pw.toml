@@ -1,13 +1,7 @@
 name = "MagicLib"
-filename = "magiclib-all-0.7.364+85d9866-stable.jar"
-side = "both"
+filename = "magiclib-all-0.7.382+17856bd-beta.jar"
 
 [download]
-url = "https://cdn.modrinth.com/data/mv1zH6ln/versions/2tt9trXx/magiclib-all-0.7.364%2B85d9866-stable.jar"
-hash-format = "sha1"
-hash = "36ff2f752ea284b0b53572084a78d43f932e91cc"
-
-[update]
-[update.modrinth]
-mod-id = "mv1zH6ln"
-version = "2tt9trXx"
+url = "https://github.com/Hendrix-Shen/MagicLib/releases/download/dev%2F0.7.382/magiclib-all-0.7.382+17856bd-beta.jar"
+hash-format = "sha256"
+hash = "1623fa25c0a6c881b679588e9e93f6a6aa9ecbb2fef383eff8a5634134111714"

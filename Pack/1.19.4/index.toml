@@ -98,7 +98,7 @@ hash = "aa50dfaa0e674caf2691c16ab2b48277cef8ac576ed36986454796c820a0ae68"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "3e3c1913dd01331342e88d51ffa0991be5497840d28981787b487312c1c259d4"
+hash = "a58ac9e2fb927af9c283af970ef2eaa5414377bdc9ea801fb39926dbba61456c"
 
 [[files]]
 file = "journeymap/config/5.9/journeymap.core.config"
@@ -314,11 +314,6 @@ hash = "f32f5c7d9e1a24369883e0a32fafe5a7dc4c53846bad94a330c4afa76b63bcc6"
 metafile = true
 
 [[files]]
-file = "mods/krypton.pw.toml"
-hash = "6f13ef3bd34d396dd26bb4a24758dc16d5323667c618b1f12e3fcbbf5c4c179c"
-metafile = true
-
-[[files]]
 file = "mods/language-reload.pw.toml"
 hash = "c8855b61ee4a9f2682a2783f335c9d8cdb88397a0e8c88519c574c88c3cdef5c"
 metafile = true
@@ -340,7 +335,7 @@ metafile = true
 
 [[files]]
 file = "mods/magiclib.pw.toml"
-hash = "950b9790d5424747b3520b6833ff4529e60f2af3d024e17bcd14fa508e6344db"
+hash = "4334239da2b1a61c7d344d411f18118628718b850eb6eaad8f6205406fdb7695"
 metafile = true
 
 [[files]]
@@ -414,11 +409,6 @@ hash = "bab7dad377c5cc8324f52c0ab02b4f8571883784f2d52c78785c48e27bc3bdb8"
 metafile = true
 
 [[files]]
-file = "mods/seaborgium.pw.toml"
-hash = "96fcbfa99364aa2f8b8eaa4c5fae8306e2018fff7f8c05a4408afb9b405234ac"
-metafile = true
-
-[[files]]
 file = "mods/sodium-extra.pw.toml"
 hash = "d01862cb94c4d9e2b1696aa72a6b80eb410f4ff1dae837f301082cbb429119d8"
 metafile = true
@@ -486,6 +476,11 @@ metafile = true
 [[files]]
 file = "resourcepacks/chat-reporting-helper.pw.toml"
 hash = "216a3ddf71bdcbb9e75e6ee0c9a6d3a1aaec8da164e34ea252a0e3e0119d9835"
+metafile = true
+
+[[files]]
+file = "resourcepacks/masa-family-bucket-translationpack.pw.toml"
+hash = "85edcb5df6f77501c37656189d678e8377c24019674de6ef5f16d7b526f8e017"
 metafile = true
 
 [[files]]
