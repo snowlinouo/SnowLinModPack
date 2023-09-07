@@ -1,6 +1,6 @@
 name = "SnowLinModPack-1.20.1"
 author = "SnowLin"
-version = "1.0.1"
+version = "1.0.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
@@ -9,7 +9,7 @@ hash-format = "sha256"
 hash = "a204b4c002f775df2cceb0dd57dd40203e87e9f54e54df9615d725ccd83dfc1b"
 
 [versions]
-fabric = "0.14.21"
+fabric = "0.14.22"
 minecraft = "1.20.1"
 
 [options]
