@@ -1,13 +1,13 @@
 name = "TweakMyClient"
-filename = "TweakMyClient-3.6.395+901cd91-beta.jar"
+filename = "TweakMyClient-all-3.6.407+4babc54-beta.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "10f59dc4b1a8e3a67542f12a63f9d1ad49693dad"
+hash = "348af2194987a47acf3baa1404f3fb62c80bb06c"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4551963
+file-id = 4734897
 project-id = 478757
