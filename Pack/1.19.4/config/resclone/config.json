@@ -9,21 +9,21 @@
     },
     {
       "fetcher": "file",
-      "source": "https://cdn.modrinth.com/data/IEt3hTCe/versions/VZ2NpFyU/%5B1.20%5DMasa%20Family%20Bucket%20Translation%20Pack.zip",
+      "source": "https://cdn.modrinth.com/data/IEt3hTCe/versions/MUajxRZn/Masa%20Family%20Bucket%20Translation%20Pack%20v1.0.2.zip",
       "name": "Masa 模組全家桶翻譯包",
       "forceDownload": false,
       "forceEnable": true
     },
     {
       "fetcher": "file",
-      "source": "https://cdn.modrinth.com/data/cF5VXmkW/versions/hQ7gAGQg/ModsTranslationPack-1.20.x.zip",
+      "source": "https://cdn.modrinth.com/data/cF5VXmkW/versions/IoXiGoUk/ModsTranslationPack-1.19.x.zip",
       "name": "模組翻譯包",
       "forceDownload": false,
       "forceEnable": true
     },
     {
       "fetcher": "file",
-      "source": "https://cdn.modrinth.com/data/tN4E9NfV/versions/KxIfCcXu/Chat%20Reporting%20Helper.zip",
+      "source": "https://cdn.modrinth.com/data/tN4E9NfV/versions/lqCTic2a/Chat%20Reporting%20Helper.zip",
       "name": "聊天檢舉幫助資源包",
       "forceDownload": false,
       "forceEnable": true

@@ -1,7 +1,7 @@
 name = "MagicLib"
-filename = "magiclib-all-0.7.382+17856bd-beta.jar"
+filename = "magiclib-all-0.7.387+c02a0de-stable.jar"
 
 [download]
-url = "https://github.com/Hendrix-Shen/MagicLib/releases/download/dev%2F0.7.382/magiclib-all-0.7.382+17856bd-beta.jar"
+url = "https://github.com/Hendrix-Shen/MagicLib/releases/download/0.7-patch.5/magiclib-all-0.7.387+c02a0de-stable.jar"
 hash-format = "sha256"
-hash = "1623fa25c0a6c881b679588e9e93f6a6aa9ecbb2fef383eff8a5634134111714"
+hash = "fb02422315a008be796349fe0d8b061c98de4a6c7dca5d9bacb8deee77c4a107"
